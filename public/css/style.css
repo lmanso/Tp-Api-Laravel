@@ -1,0 +1,30 @@
+* {
+    margin: 0!important;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+/*Colors*/
+
+.bg-info {
+    background-color: #5a5d87 !important;
+}
+
+.bg-secondary {
+    background-color: #37bad6!important;
+}
+
+/*Colors*/
+
+.card-body {
+    border-radius: 30px!important;
+}
+
+#logo {
+    height: 50%!important;
+    width: 80%!important;
+    background-image: url('img/logo.svg');
+}
