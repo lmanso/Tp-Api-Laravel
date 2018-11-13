@@ -19,6 +19,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    @if(isset($style) && ($style === "true"))
+    <link href="{{ asset('css/black.css') }}" rel="stylesheet">
+    @endif
 </head>
 <body>
     <div id="app">

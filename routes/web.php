@@ -18,3 +18,5 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::post('/searchSong', 'SongController@searchSong');
+Route::post('/updateOptions', 'OptionController@updateOptions');
